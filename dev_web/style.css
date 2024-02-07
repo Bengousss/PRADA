@@ -3,35 +3,56 @@ html {
     background-color: #b6e2ff;
 }
 
+.container-flexbox {
+    -webkit-box-orient : horizontal;
+    -webkit-box-direction : normal;  
+    -ms-flex-direction : row; 
+    flex-direction : row; 
+    -ms-flex-wrap : wrap;
+    flex-wrap : wrap; 
+}
+
 h1 {
     color: #c719fc;
     margin-left: 39%;
     padding: 5px;
     font-size: 50px;
+    position: sticky;
 }
 
 #paragraphe1 {
-    color: rgb(255, 151, 151);
+    color: rgb(151, 24, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
+    padding: 10px;
+    position: sticky;
 }
 
 #paragraphe2 {
     color: rgb(255, 41, 41);
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
+    padding: 10px;
+    position: sticky;
+    text-align: left;
 }
 
 .bloc {
     color: rgb(53, 188, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
+    padding: 10px;
+    position: sticky;
+    text-align: right;
 }
 
 .EncoreUnBloc {
     color: rgb(255, 255, 255);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 40px;
+    padding: 10px;
+    position: sticky;
+    text-align: center;
 }
 
 button {
@@ -43,6 +64,7 @@ button {
     background-color: rgb(198, 39, 251);
     margin: 5px;
     padding: 5px;
+    position: relative;
 }
 
 button:hover {
